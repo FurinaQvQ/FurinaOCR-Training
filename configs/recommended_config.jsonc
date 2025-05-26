@@ -1,0 +1,20 @@
+// 自动生成的推荐配置
+// 基于您的硬件环境优化
+{
+  "training": {
+    "batch_size": 128,
+    "model_save_threshold": 0.95,
+    "epoch": 50
+  },
+  "data": {
+    "train_size": 200000,
+    "validate_size": 10000,
+    "dataloader_workers": 8,
+    "data_strategy": "adaptive"
+  },
+  "hardware": {
+    "mixed_precision": true,
+    "compile_model": false,
+    "memory_efficient": false
+  }
+}

@@ -1,0 +1,79 @@
+# 数据和模型文件
+data/
+models/*.pt
+production_models/*.pt
+samples/
+checkpoints/
+
+# IDE和编辑器文件
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Python缓存和编译文件
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 日志和临时文件
+logs/
+*.log
+*.tmp
+*.temp
+
+# 测试和覆盖率文件
+.coverage
+.pytest_cache/
+.tox/
+htmlcov/
+
+# 环境配置
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# 操作系统生成的文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# 实验性文件
+experimental/
+test_*
+demo_*
+*_test.py
+*_demo.py
